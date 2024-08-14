@@ -53,3 +53,13 @@ body{
 .item:hover a{
     color:black
 }
+
+@media only screen and (max-whidth: 768px) {
+    body{
+        height: 150vh;
+    }
+
+    .item{
+        width: 350px;
+    }
+}
